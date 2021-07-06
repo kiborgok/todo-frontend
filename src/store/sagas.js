@@ -4,8 +4,7 @@ import axios from "axios";
 
 import * as mutations from "./mutations";
 
-const url = "http://localhost:5000";
-/*process.env.NODE_ENV === `production` ? `` : */
+const url = process.env.NODE_ENV === `production` ? `https://kibortodoapi.herokuapp.com` : "http://localhost:5000"
 
 export function* taskFetchSaga() {
     while (true) {
