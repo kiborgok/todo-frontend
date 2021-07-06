@@ -5,7 +5,7 @@ import Main from "./Main";
 function Layout({ setLocale }) {
     const [rtl, setRtl] = useState(false);
     const [collapsed, setCollapsed] = useState(false);
-    const [image, setImage] = useState(false);
+    const [image, setImage] = useState(true);
     const [toggled, setToggled] = useState(false);
 
     const handleCollapsedChange = (checked) => {
