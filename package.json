@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sentry/react": "^6.8.0",
+    "@sentry/tracing": "^6.8.0",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "cra-template": "1.1.2",
