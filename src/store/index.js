@@ -147,7 +147,7 @@ export const store = createStore(
             }
         },
     }),
-    applyMiddleware(createLogger(), sagaMiddleware)
+    applyMiddleware(NODE_ENV === "development" && createLogger(), sagaMiddleware)
 );
 
 //sagaMiddleware.run(watcherSaga);
