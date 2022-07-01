@@ -44,13 +44,13 @@ const Main = ({
                 <br />
                 <div className="social-bagdes">
                     <a
-                        href="https://twitter.com/AlekieYangK"
+                        href="https://twitter.com/Wangari_TJ"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <img
                             alt="Twitter Follow"
-                            src="https://img.shields.io/twitter/follow/AlekieYangK?label=twitter&style=social"
+                            src="https://img.shields.io/twitter/follow/Wangari_TJ?label=twitter&style=social"
                         />
                     </a>
                 </div>
